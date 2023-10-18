@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #242424;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow: break-word;
+}
+.capa{
+    width: 100%;
+    margin: 0;
+}
+main{
+    display: block;
+    background-color: #fff;
+}
+.container{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900s;
+    color: #000;
+}
+section.module p{
+    margin-bottom: 40px;
+}
+section.module:last-child{
+    margin-bottom: 0;
+}
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+section.module.content{
+    padding: 40px;
+    background-color: #ece7d5;
+}
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+section.module.parallax-1{
+    background-image: url(https://observatoriog.bol.uol.com.br/wordpress/wp-content/uploads/2021/04/cristiano-ronaldo-underwear_1q55w1pu1qt8m1bh51wavfdnxs.jpg);
+
+
+
+}
